@@ -1,0 +1,41 @@
+{
+  "total_recordings": 5440,
+  "total_supervisions": 5440,
+  "categories": {
+    "positive": {
+      "count": 1000,
+      "total_duration": 1305.066666666672,
+      "weight": 3.0
+    },
+    "prefix": {
+      "count": 330,
+      "total_duration": 503.256,
+      "weight": 2.5
+    },
+    "extended_prefix": {
+      "count": 825,
+      "total_duration": 1381.8479999999972,
+      "weight": 2.0
+    },
+    "homophones": {
+      "count": 990,
+      "total_duration": 1503.0000000000027,
+      "weight": 1.5
+    },
+    "suffix": {
+      "count": 480,
+      "total_duration": 750.2880000000018,
+      "weight": 1.0
+    },
+    "long_sentences": {
+      "count": 1320,
+      "total_duration": 3862.5119999999997,
+      "weight": 1.0
+    },
+    "general": {
+      "count": 495,
+      "total_duration": 789.2159999999985,
+      "weight": 0.5
+    }
+  }
+}

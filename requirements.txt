@@ -1,0 +1,19 @@
+# 流式关键词识别系统依赖
+
+# 核心依赖
+numpy>=1.20.0
+onnx>=1.14.0
+onnxruntime>=1.15.0
+
+# 音频处理
+sounddevice>=0.4.6
+librosa>=0.10.0
+
+# sherpa-onnx (关键词识别引擎)
+sherpa-onnx>=1.10.0
+
+# PyTorch (仅用于模型导出，运行时不需要)
+# torch>=2.0.0
+
+# 可选依赖
+# onnxruntime-gpu  # GPU加速

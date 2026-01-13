@@ -1,0 +1,90 @@
+# Experiment outputs
+exp/
+experiments/multi_stage_ablation/models/
+experiments/multi_stage_ablation/results/
+experiments/multi_stage_ablation/stage1/
+experiments/multi_stage_ablation/stage2/
+
+# Log files
+log/
+
+# Large data files (regeneratable)
+data/raw_tts/
+data/manifests/
+data/lang_partial_tone/
+
+# Pretrained models (large external downloads)
+icefall-kws-zipformer-wenetspeech-20240219/
+Download/
+
+# HuggingFace upload temporary directory (regeneratable)
+hf_upload/
+
+# HuggingFace cache
+.huggingface/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch
+*.pth
+
+# ONNX models (can be exported from checkpoints)
+*.onnx
+!models/mlp_verifier.onnx
+*.onnx.data
+
+# Data files
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+# Coverage reports
+.hypothesis/
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# Profiling
+*.prof
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Plan drafts (keep finalized plans)
+plan/draft*.md
