@@ -179,6 +179,7 @@ class AudioBuffer:
     环形音频缓冲区
     
     用于存储最近的音频数据，支持提取指定时长的历史音频。
+    优化：使用预分配缓冲区减少内存分配。
     """
     
     def __init__(self, max_duration: float = 5.0, sample_rate: int = 16000):
@@ -195,6 +196,8 @@ class AudioBuffer:
         self._buffer = np.zeros(self.max_samples, dtype=np.float32)
         self._write_pos = 0
         self._total_samples = 0
+        # 预分配输出缓冲区，避免频繁内存分配
+        self._output_buffer = np.zeros(self.max_samples, dtype=np.float32)
     
     def append(self, audio: np.ndarray) -> None:
         """
@@ -234,27 +237,33 @@ class AudioBuffer:
             duration: 时长（秒）
             
         Returns:
-            音频数据
+            音频数据（使用预分配缓冲区的视图）
         """
         n_samples = min(int(duration * self.sample_rate), self._total_samples)
         
         if n_samples == 0:
-            return np.array([], dtype=np.float32)
+            return self._output_buffer[:0]  # 返回空视图而非新数组
         
         # 计算起始位置
         start_pos = (self._write_pos - n_samples) % self.max_samples
         
+        # 使用预分配缓冲区
+        output = self._output_buffer[:n_samples]
+        
         if start_pos < self._write_pos:
-            return self._buffer[start_pos:self._write_pos].copy()
+            # 连续读取：直接拷贝
+            np.copyto(output, self._buffer[start_pos:self._write_pos])
         else:
-            # 需要环绕读取
-            return np.concatenate([
-                self._buffer[start_pos:],
-                self._buffer[:self._write_pos]
-            ])
+            # 环绕读取：分段拷贝到预分配缓冲区
+            first_part = self.max_samples - start_pos
+            np.copyto(output[:first_part], self._buffer[start_pos:])
+            np.copyto(output[first_part:], self._buffer[:self._write_pos])
+        
+        return output
     
     def clear(self) -> None:
         """清空缓冲区"""
         self._buffer.fill(0)
+        self._output_buffer.fill(0)
         self._write_pos = 0
         self._total_samples = 0

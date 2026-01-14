@@ -5,7 +5,7 @@
 "你好真真"唤醒词实时识别系统
 
 使用方法:
-    python main.py --model-dir exp/kws_finetune_v3
+    python main.py --model-dir ./kws_finetune_v3
 
 功能:
     1. 从麦克风实时采集音频
@@ -29,13 +29,13 @@ def create_parser() -> argparse.ArgumentParser:
         epilog="""
 示例:
     # 使用默认配置运行
-    python main.py --model-dir exp/kws_finetune_v3
+    python main.py --model-dir ./kws_finetune_v3
     
     # 禁用MLP验证器
-    python main.py --model-dir exp/kws_finetune_v3 --no-mlp
+    python main.py --model-dir ./kws_finetune_v3 --no-mlp
     
     # 调整检测阈值
-    python main.py --model-dir exp/kws_finetune_v3 --kws-threshold 0.3 --mlp-threshold 0.6
+    python main.py --model-dir ./kws_finetune_v3 --kws-threshold 0.3 --mlp-threshold 0.6
     
     # 列出音频设备
     python main.py --list-devices
@@ -46,7 +46,7 @@ def create_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--model-dir",
         type=str,
-        default="exp/kws_finetune_v3",
+        default="./kws_finetune_v3",
         help="模型目录路径"
     )
     parser.add_argument(
@@ -166,9 +166,9 @@ def run_streaming_kws(args):
     
     config = KWSConfig(
         # 模型路径
-        encoder_path=str(model_dir / "encoder-epoch-12-avg-2-chunk-16-left-64.int8.onnx"),
-        decoder_path=str(model_dir / "decoder-epoch-12-avg-2-chunk-16-left-64.int8.onnx"),
-        joiner_path=str(model_dir / "joiner-epoch-12-avg-2-chunk-16-left-64.int8.onnx"),
+        encoder_path=str(model_dir / "encoder.int8.onnx"),
+        decoder_path=str(model_dir / "decoder.int8.onnx"),
+        joiner_path=str(model_dir / "joiner.int8.onnx"),
         tokens_path=str(model_dir / "tokens.txt"),
         keywords_file=str(model_dir / "keywords.txt"),
         

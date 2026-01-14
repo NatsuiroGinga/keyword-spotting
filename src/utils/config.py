@@ -31,7 +31,7 @@ class KWSConfig:
     # MLP验证器配置
     mlp_model_path: str = ""
     mlp_threshold: float = 0.5
-    mlp_enabled: bool = True
+    mlp_enabled: bool = False  # 默认禁用MLP验证器（流式场景下效果不佳）
     
     # 特征提取配置
     n_mfcc: int = 13
@@ -44,6 +44,9 @@ class KWSConfig:
     # 推理配置
     num_threads: int = 2
     provider: str = "cpu"
+    
+    # 流重置配置（防止长时间运行内存累积）
+    stream_reset_interval: int = 6000  # 每处理N个音频块后重建流（默认10分钟@100ms/块）
     
     @classmethod
     def from_json(cls, json_path: str) -> "KWSConfig":

@@ -55,6 +55,8 @@ class StreamingKWSPipeline:
         self._is_loaded = False
         self._detection_count = 0
         self._start_time = None
+        self._chunk_count = 0  # 处理块计数器，用于定期重置
+        self._total_samples_received = 0  # 记录实际接收的音频样本数（不含padding）
         
         # 回调
         self._on_detection: Optional[Callable[[DetectionResult], None]] = None
@@ -154,6 +156,12 @@ class StreamingKWSPipeline:
         # 送入sherpa-onnx流
         self._stream.accept_waveform(self.config.sample_rate, audio_chunk)
         
+        # 增加块计数，定期重建流以防止内部状态累积
+        self._chunk_count += 1
+        if self._chunk_count >= self.config.stream_reset_interval:
+            self._rebuild_stream()
+            self._chunk_count = 0
+        
         # 解码
         while self._kws.is_ready(self._stream):
             self._kws.decode_stream(self._stream)
@@ -199,11 +207,40 @@ class StreamingKWSPipeline:
         """
         使用MLP验证器进行二次验证
         
+        后缀提取策略与训练时保持一致：
+        - 从音频40%位置开始提取后缀
+        - 后缀长度限制在200-800ms范围内
+        
         Returns:
             (是否通过验证, MLP置信度)
         """
-        # 获取后缀音频
-        suffix_audio = self._audio_buffer.get_last(self.config.suffix_duration)
+        # 获取完整的关键词音频（约1.5秒，覆盖"你好真真"完整发音）
+        full_audio = self._audio_buffer.get_last(self.config.buffer_duration)
+        
+        if len(full_audio) < self.config.sample_rate * 0.3:  # 至少300ms
+            return True, None  # 音频太短，跳过验证
+        
+        # 与训练时一致：从音频40%位置开始提取后缀
+        total_samples = len(full_audio)
+        start_ratio = 0.4
+        min_duration_ms = 200
+        max_duration_ms = 800
+        
+        start_sample = int(total_samples * start_ratio)
+        min_samples = int(min_duration_ms * self.config.sample_rate / 1000)
+        max_samples = int(max_duration_ms * self.config.sample_rate / 1000)
+        
+        # 提取后缀
+        suffix_audio = full_audio[start_sample:]
+        
+        # 确保长度在范围内
+        if len(suffix_audio) < min_samples:
+            # 如果太短，向前扩展
+            new_start = max(0, total_samples - min_samples)
+            suffix_audio = full_audio[new_start:]
+        elif len(suffix_audio) > max_samples:
+            # 如果太长，截断
+            suffix_audio = suffix_audio[:max_samples]
         
         if len(suffix_audio) < self.config.sample_rate * 0.1:  # 至少100ms
             return True, None  # 音频太短，跳过验证
@@ -225,7 +262,13 @@ class StreamingKWSPipeline:
             self._audio_buffer.clear()
         
         self._detection_count = 0
+        self._chunk_count = 0
         self._start_time = time.time()
+    
+    def _rebuild_stream(self) -> None:
+        """重建sherpa-onnx流，释放内部累积状态"""
+        if self._kws is not None:
+            self._stream = self._kws.create_stream()
     
     def set_on_detection(self, callback: Callable[[DetectionResult], None]) -> None:
         """
