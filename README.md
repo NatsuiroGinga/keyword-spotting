@@ -35,6 +35,7 @@ keyword-spotting/
 ├── DEPLOYMENT_SUMMARY.md     # 部署总结
 │
 ├── data/                     # 数据目录
+│   ├── all/                  # 真人语音测试数据 (49 个文件)
 │   ├── manifests/            # Lhotse 数据清单
 │   ├── raw_tts/              # 合成 TTS 音频
 │   └── lang_partial_tone/    # 词汇表（拼音+声调）
@@ -168,7 +169,20 @@ python scripts/eval/optimize_kws_params.py \
 - **[doc/windows_deployment.md](./doc/windows_deployment.md)** - Windows 部署指南
 - **[doc/sherpa_onnx_installation.md](./doc/sherpa_onnx_installation.md)** - Sherpa-ONNX 安装说明
 
-## 训练数据统计
+## 测试数据
+
+### 主要测试集（真人语音）
+
+**路径**: `data/all/` (来自 `data/kws-data-all.zip`)
+
+| 类别 | 数量 | 描述 |
+|------|------|------|
+| 正样本 (你好真真) | 10 | 真人语音录制的 "你好真真" |
+| 相似词 (你好珍珍/娟娟) | 3 | 发音相似的关键词（应被拒绝） |
+| 负样本 | 36 | 其他命令和短语 |
+| **总计** | **49** | 真实场景测试样本 |
+
+### 训练数据统计
 
 | 类别 | 数量 | 路径 |
 |------|------|------|

@@ -1,0 +1,52 @@
+============================================================
+流式 KWS 评估结果
+============================================================
+
+【样本统计】
+  总样本数: 406
+  正样本数: 63
+  负样本数: 343
+
+【混淆矩阵】
+  TP (正确检测): 44
+  TN (正确拒绝): 209
+  FP (误报): 134
+  FN (漏检): 19
+
+【检测指标】
+  准确率: 62.32%
+  精确率: 24.72%
+  召回率: 69.84%
+  F1 分数: 36.51%
+
+【误报/漏检率】
+  FAR (误报率): 39.07% ✗ (目标 < 10%)
+  FRR (漏检率): 30.16% ✗ (目标 < 5%)
+
+【延迟统计】(正样本检测延迟)
+  平均: 3788.2ms
+  P50: 3330.0ms
+  P90: 7653.0ms
+  P99: 9720.0ms
+
+【实时因子 (RTF)】
+  总体 RTF: 0.0217 ✓ (目标 < 1.0)
+  平均 RTF: 0.0235
+  P99 RTF: 0.0518
+  实时能力: 是
+
+【达标判定】
+  ✗ 未完全达标
+============================================================
+
+总评估时间: 38.98s
+配置:
+  data_dir: /data/workspace/llm/keyword-spotting/data/all
+  kws_model_dir: /data/workspace/llm/keyword-spotting/exp/kws_finetune_v3
+  mlp_model: /data/workspace/llm/keyword-spotting/experiments/multi_stage_ablation/models/mlp_verifier.pt
+  kws_threshold: 0.25
+  kws_score: 1.5
+  mlp_threshold: 0.4
+  mlp_enabled: True
+  frame_ms: 30
+  buffer_ms: 2000

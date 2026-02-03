@@ -1,0 +1,44 @@
+{
+  "data_dir": "/data/workspace/llm/keyword-spotting/data/all",
+  "output_dir": "/data/workspace/llm/keyword-spotting/experiments/baseline_streaming/data_splits",
+  "train_ratio": 0.7,
+  "val_ratio": 0.15,
+  "test_ratio": 0.15,
+  "random_seed": 42,
+  "split_sizes": {
+    "train": 282,
+    "val": 59,
+    "test": 65
+  },
+  "validation": {
+    "train": {
+      "total": 282,
+      "counts": {
+        "negative_other": 210,
+        "positive": 60,
+        "negative_zhenzhen": 4,
+        "negative_nihao": 8
+      },
+      "pos_neg_ratio": 0.2702702702702703
+    },
+    "val": {
+      "total": 59,
+      "counts": {
+        "negative_other": 45,
+        "positive": 13,
+        "negative_nihao": 1
+      },
+      "pos_neg_ratio": 0.2826086956521739
+    },
+    "test": {
+      "total": 65,
+      "counts": {
+        "negative_nihao": 3,
+        "negative_other": 46,
+        "positive": 14,
+        "negative_zhenzhen": 2
+      },
+      "pos_neg_ratio": 0.27450980392156865
+    }
+  }
+}

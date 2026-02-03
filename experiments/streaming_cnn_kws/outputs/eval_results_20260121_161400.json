@@ -1,0 +1,30 @@
+{
+  "config": {
+    "data_dir": "/data/workspace/llm/keyword-spotting/data/all",
+    "v3_model_dir": "/data/workspace/llm/keyword-spotting/exp/kws_finetune_v3",
+    "cnn_model": "/data/workspace/llm/keyword-spotting/experiments/streaming_cnn_kws/outputs/cnn_verifier_latest.pt",
+    "v3_threshold": 0.25,
+    "cnn_threshold": 0.4099999999999998,
+    "fusion_mode": "weighted",
+    "final_threshold": 0.3
+  },
+  "metrics": {
+    "accuracy": 0.6847290640394089,
+    "precision": 0.3969849246231156,
+    "recall": 0.9080459770114943,
+    "f1": 0.5524475524475524,
+    "far": 0.3761755485893417,
+    "frr": 0.09195402298850575,
+    "tp": 79,
+    "tn": 199,
+    "fp": 120,
+    "fn": 8,
+    "avg_rtf": 0.02708413990180636,
+    "avg_inference_time": 0.10382342940480838
+  },
+  "sample_stats": {
+    "total": 406,
+    "positive": 87,
+    "negative": 319
+  }
+}

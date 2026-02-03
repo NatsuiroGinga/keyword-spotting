@@ -1,0 +1,68 @@
+{
+  "model": {
+    "name": "nihao-zhenzhen-kws",
+    "version": "1.0.0",
+    "description": "Chinese keyword spotting model for '你好真真' (Ni Hao Zhen Zhen)",
+    "architecture": "Zipformer-Transducer",
+    "epoch": 33,
+    "framework": "sherpa-onnx"
+  },
+  "variants": {
+    "fp32": {
+      "files": {
+        "encoder": "model/encoder.onnx",
+        "decoder": "model/decoder.onnx",
+        "joiner": "model/joiner.onnx",
+        "tokens": "model/tokens.txt",
+        "keywords": "model/keywords.txt"
+      },
+      "inference": {
+        "keywords_threshold": 0.52,
+        "keywords_score": 1.5
+      },
+      "metrics": {
+        "f1_score": 0.8947,
+        "accuracy": 0.9507,
+        "false_accept_rate": 0.0564,
+        "false_reject_rate": 0.0230,
+        "rtf": 0.0185
+      },
+      "size_mb": 13
+    },
+    "int8": {
+      "files": {
+        "encoder": "model_int8/encoder.onnx",
+        "decoder": "model_int8/decoder.onnx",
+        "joiner": "model_int8/joiner.onnx",
+        "tokens": "model_int8/tokens.txt",
+        "keywords": "model_int8/keywords.txt"
+      },
+      "inference": {
+        "keywords_threshold": 0.46,
+        "keywords_score": 1.5
+      },
+      "metrics": {
+        "f1_score": 0.8901,
+        "accuracy": 0.9433,
+        "false_accept_rate": 0.0596,
+        "false_reject_rate": 0.0230,
+        "rtf": 0.0140
+      },
+      "size_mb": 5
+    }
+  },
+  "default_variant": "fp32",
+  "inference": {
+    "num_threads": 2,
+    "provider": "cpu"
+  },
+  "audio": {
+    "sample_rate": 16000,
+    "chunk_duration_ms": 100,
+    "channels": 1
+  },
+  "keywords": [
+    "你好真真",
+    "你好珍珍"
+  ]
+}

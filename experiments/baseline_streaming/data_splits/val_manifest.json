@@ -1,0 +1,356 @@
+[
+  {
+    "file": "20260105172913_你坐着.wav",
+    "text": "你坐着",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112144308_但是如果改成这种双轨制的就有一个问题那个 A刹一直在费资源.wav",
+    "text": "但是如果改成这种双轨制的就有一个问题那个 A刹一直在费资源",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171226_没问题.wav",
+    "text": "没问题",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105172914_你好真真.wav",
+    "text": "你好真真",
+    "label": 1,
+    "category": "positive"
+  },
+  {
+    "file": "20260105172806_上报故障.wav",
+    "text": "上报故障",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171749_你好真真.wav",
+    "text": "你好真真",
+    "label": 1,
+    "category": "positive"
+  },
+  {
+    "file": "20260105173005_你好珍珍.wav",
+    "text": "你好珍珍",
+    "label": 1,
+    "category": "positive"
+  },
+  {
+    "file": "20260105171715_退出调试模式.wav",
+    "text": "退出调试模式",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171133_前往下一个展位.wav",
+    "text": "前往下一个展位",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20251212161850准备展厅.wav",
+    "text": "准备展厅",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171513_能漏一个啊.wav",
+    "text": "能漏一个啊",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171743_好的你好真真.wav",
+    "text": "好的你好真真",
+    "label": 1,
+    "category": "positive"
+  },
+  {
+    "file": "20260105171721_你好真真.wav",
+    "text": "你好真真",
+    "label": 1,
+    "category": "positive"
+  },
+  {
+    "file": "20260105171746_下一页.wav",
+    "text": "下一页",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171524_下一页.wav",
+    "text": "下一页",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171221_珍珍在此你好珍珍.wav",
+    "text": "珍珍在此你好珍珍",
+    "label": 1,
+    "category": "positive"
+  },
+  {
+    "file": "20260112143718_你好真真.wav",
+    "text": "你好真真",
+    "label": 1,
+    "category": "positive"
+  },
+  {
+    "file": "20260112144913_这个就直接按那个关.wav",
+    "text": "这个就直接按那个关",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105172408_选这个电影都不错.wav",
+    "text": "选这个电影都不错",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105172358_你等全部关闭了再开我去拿音响过来.wav",
+    "text": "你等全部关闭了再开我去拿音响过来",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105172206_讲解员已切换为刘欢.wav",
+    "text": "讲解员已切换为刘欢",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112144320_几只小猫在叫.wav",
+    "text": "几只小猫在叫",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171423_好的.wav",
+    "text": "好的",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112143506_你好真真.wav",
+    "text": "你好真真",
+    "label": 1,
+    "category": "positive"
+  },
+  {
+    "file": "20260112144058_现在是下有背景音乐干扰的时候.wav",
+    "text": "现在是下有背景音乐干扰的时候",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105172631_讲解员已切换为刘华当前无预约以自动为你设置为默认演示模式.wav",
+    "text": "讲解员已切换为刘华当前无预约以自动为你设置为默认演示模式",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105172931_带给他看.wav",
+    "text": "带给他看",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105170846_讲解员已切换为欧阳.wav",
+    "text": "讲解员已切换为欧阳",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20251231111841_一句话也写在.wav",
+    "text": "一句话也写在",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112144811_因为本来就发音不是很准.wav",
+    "text": "因为本来就发音不是很准",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112143741_上报语音故障.wav",
+    "text": "上报语音故障",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112144343_那应该也问题也不大后天就后天吧.wav",
+    "text": "那应该也问题也不大后天就后天吧",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112144605_现在除了那个.wav",
+    "text": "现在除了那个",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112144507_就这个不发是吗.wav",
+    "text": "就这个不发是吗",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112144208_这种也可以被唤醒.wav",
+    "text": "这种也可以被唤醒",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112143639_在后面可以看日志是吧.wav",
+    "text": "在后面可以看日志是吧",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105172821_你好真真.wav",
+    "text": "你好真真",
+    "label": 1,
+    "category": "positive"
+  },
+  {
+    "file": "20260112143900_你你你你在那边说一下看你这个月.wav",
+    "text": "你你你你在那边说一下看你这个月",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112144145_哦那也还行.wav",
+    "text": "哦那也还行",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112144127_找他不是吗.wav",
+    "text": "找他不是吗",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112143613_现在我再说一下你好郑郑看看.wav",
+    "text": "现在我再说一下你好郑郑看看",
+    "label": 0,
+    "category": "negative_nihao"
+  },
+  {
+    "file": "20260105171228_你好真真.wav",
+    "text": "你好真真",
+    "label": 1,
+    "category": "positive"
+  },
+  {
+    "file": "20260105171224_返回首页.wav",
+    "text": "返回首页",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20251212161734上报语音故障.wav",
+    "text": "上报语音故障",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105172803_你好珍珍.wav",
+    "text": "你好珍珍",
+    "label": 1,
+    "category": "positive"
+  },
+  {
+    "file": "20260105171556_无论是男女都.wav",
+    "text": "无论是男女都",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171358_你好珍珍.wav",
+    "text": "你好珍珍",
+    "label": 1,
+    "category": "positive"
+  },
+  {
+    "file": "20260105172249_你好真真启动一展厅.wav",
+    "text": "你好真真启动一展厅",
+    "label": 1,
+    "category": "positive"
+  },
+  {
+    "file": "20260105172911_下一页.wav",
+    "text": "下一页",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105172303_只是头一次遇见.wav",
+    "text": "只是头一次遇见",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112143849_我们也不会说说你的坏话你你怕啥.wav",
+    "text": "我们也不会说说你的坏话你你怕啥",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112143635_你前面这.wav",
+    "text": "你前面这",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112143824_就是这个准确率是最麻烦的.wav",
+    "text": "就是这个准确率是最麻烦的",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112144126_其声音还是干扰孩子明显是有干扰的.wav",
+    "text": "其声音还是干扰孩子明显是有干扰的",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171046_前往.wav",
+    "text": "前往",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112143729_这种情况下我也不知道他算没算到成功.wav",
+    "text": "这种情况下我也不知道他算没算到成功",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112143529_那个我们的你上去吧.wav",
+    "text": "那个我们的你上去吧",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112143538_这你你聊聊了之后突然一下你要点赞了.wav",
+    "text": "这你你聊聊了之后突然一下你要点赞了",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105173015_上报语音故障.wav",
+    "text": "上报语音故障",
+    "label": 0,
+    "category": "negative_other"
+  }
+]

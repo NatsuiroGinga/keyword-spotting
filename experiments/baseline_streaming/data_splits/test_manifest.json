@@ -1,0 +1,392 @@
+[
+  {
+    "file": "20260112144352_你好认真.wav",
+    "text": "你好认真",
+    "label": 0,
+    "category": "negative_nihao"
+  },
+  {
+    "file": "20260105172636_五秒后将关闭当前屏幕展厅进入准备状态.wav",
+    "text": "五秒后将关闭当前屏幕展厅进入准备状态",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105172353_你好真真关闭电源.wav",
+    "text": "你好真真关闭电源",
+    "label": 1,
+    "category": "positive"
+  },
+  {
+    "file": "20260112144023_我三点.wav",
+    "text": "我三点",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171307_你好珍珍.wav",
+    "text": "你好珍珍",
+    "label": 1,
+    "category": "positive"
+  },
+  {
+    "file": "20260112144610_呃唤醒孩子的注意力.wav",
+    "text": "呃唤醒孩子的注意力",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112144240_如一开始这种还是可以判断出来的嘛.wav",
+    "text": "如一开始这种还是可以判断出来的嘛",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105172326_就是因为这个原因所以我所有的首饰都没有生效.wav",
+    "text": "就是因为这个原因所以我所有的首饰都没有生效",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112144009_说这个代价也也不算大.wav",
+    "text": "说这个代价也也不算大",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171619_服务超大指令发货百问百答.wav",
+    "text": "服务超大指令发货百问百答",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171349_上一页.wav",
+    "text": "上一页",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171816_你好真真.wav",
+    "text": "你好真真",
+    "label": 1,
+    "category": "positive"
+  },
+  {
+    "file": "20260105171735_收到.wav",
+    "text": "收到",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171342_下一页.wav",
+    "text": "下一页",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171157_你好亲爱的.wav",
+    "text": "你好亲爱的",
+    "label": 0,
+    "category": "negative_nihao"
+  },
+  {
+    "file": "20260112144020_这个时候还是比较准的.wav",
+    "text": "这个时候还是比较准的",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20251212161855你好真真.wav",
+    "text": "你好真真",
+    "label": 1,
+    "category": "positive"
+  },
+  {
+    "file": "20251212161903你好真真.wav",
+    "text": "你好真真",
+    "label": 1,
+    "category": "positive"
+  },
+  {
+    "file": "20251231111110_已就位请在评论区留言.wav",
+    "text": "已就位请在评论区留言",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105172621_你好珍珍.wav",
+    "text": "你好珍珍",
+    "label": 1,
+    "category": "positive"
+  },
+  {
+    "file": "20260112144333_但是这个我们不管做不做.wav",
+    "text": "但是这个我们不管做不做",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112144036_哎你听说过.wav",
+    "text": "哎你听说过",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105170911_启动展厅.wav",
+    "text": "启动展厅",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112143819_哎所以所以这些东西真的就是.wav",
+    "text": "哎所以所以这些东西真的就是",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105172215_五秒后将关闭开启当前屏幕展厅进入主题状态.wav",
+    "text": "五秒后将关闭开启当前屏幕展厅进入主题状态",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171610_你有哪些常见操作指令.wav",
+    "text": "你有哪些常见操作指令",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171418_你好珍珍.wav",
+    "text": "你好珍珍",
+    "label": 1,
+    "category": "positive"
+  },
+  {
+    "file": "20260105171140_集合啦.wav",
+    "text": "集合啦",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105172720_请移步到下一个路口.wav",
+    "text": "请移步到下一个路口",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171344_没问题.wav",
+    "text": "没问题",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112144807_但是那个没视频能接受吧.wav",
+    "text": "但是那个没视频能接受吧",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112143609_因为你原先隔得比较远嘛.wav",
+    "text": "因为你原先隔得比较远嘛",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105172859_你好珍珍.wav",
+    "text": "你好珍珍",
+    "label": 1,
+    "category": "positive"
+  },
+  {
+    "file": "20260105172225_你要珍珍.wav",
+    "text": "你要珍珍",
+    "label": 0,
+    "category": "negative_zhenzhen"
+  },
+  {
+    "file": "20260105171449_你跳着.wav",
+    "text": "你跳着",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171833_好的.wav",
+    "text": "好的",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171856_你好真真.wav",
+    "text": "你好真真",
+    "label": 1,
+    "category": "positive"
+  },
+  {
+    "file": "20260105171435_你好娟娟.wav",
+    "text": "你好娟娟",
+    "label": 0,
+    "category": "negative_nihao"
+  },
+  {
+    "file": "20260112144423_几号真真.wav",
+    "text": "几号真真",
+    "label": 0,
+    "category": "negative_zhenzhen"
+  },
+  {
+    "file": "20260112144510_但是唤醒的声音是这个发的.wav",
+    "text": "但是唤醒的声音是这个发的",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171752_打开百分百的啊.wav",
+    "text": "打开百分百的啊",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112143628_你看就是说他可能词识别不对就是你放在语境里面他那个 NSI识别的那个结果.wav",
+    "text": "你看就是说他可能词识别不对就是你放在语境里面他那个 NSI识别的那个结果",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112143930_你说估计也会被弄散假如我这个地方放在我这个邻家这个地方.wav",
+    "text": "你说估计也会被弄散假如我这个地方放在我这个邻家这个地方",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171242_没问题.wav",
+    "text": "没问题",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112144515_这一枚还没起.wav",
+    "text": "这一枚还没起",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112143932_那你你说一下.wav",
+    "text": "那你你说一下",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105172734_集合啦集合啦我们在这里讲解下个产品啦.wav",
+    "text": "集合啦集合啦我们在这里讲解下个产品啦",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105172934_随时呼唤我都能为您解答.wav",
+    "text": "随时呼唤我都能为您解答",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112143657_是是要怎么说.wav",
+    "text": "是是要怎么说",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105172757_打开调试模式.wav",
+    "text": "打开调试模式",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105172349_咨询一下吧.wav",
+    "text": "咨询一下吧",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171410_你好真真.wav",
+    "text": "你好真真",
+    "label": 1,
+    "category": "positive"
+  },
+  {
+    "file": "20260105171657_没有识别呀.wav",
+    "text": "没有识别呀",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171347_你好真真.wav",
+    "text": "你好真真",
+    "label": 1,
+    "category": "positive"
+  },
+  {
+    "file": "20260105171459_上一页.wav",
+    "text": "上一页",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112144014_你好真真.wav",
+    "text": "你好真真",
+    "label": 1,
+    "category": "positive"
+  },
+  {
+    "file": "20260105172404_没有办法.wav",
+    "text": "没有办法",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171404_刚刚有一个.wav",
+    "text": "刚刚有一个",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171243_你好珍珍.wav",
+    "text": "你好珍珍",
+    "label": 1,
+    "category": "positive"
+  },
+  {
+    "file": "20260112144836_嗯.wav",
+    "text": "嗯",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112144816_你好真真.wav",
+    "text": "你好真真",
+    "label": 1,
+    "category": "positive"
+  },
+  {
+    "file": "20260112144418_现在没什么肉包子.wav",
+    "text": "现在没什么肉包子",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260112144824_二十分钟还是十五分钟.wav",
+    "text": "二十分钟还是十五分钟",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171352_没问题两千块钱.wav",
+    "text": "没问题两千块钱",
+    "label": 0,
+    "category": "negative_other"
+  },
+  {
+    "file": "20260105171118_看有没有需要语音识别的问题是吧还有响应速度问题.wav",
+    "text": "看有没有需要语音识别的问题是吧还有响应速度问题",
+    "label": 0,
+    "category": "negative_other"
+  }
+]

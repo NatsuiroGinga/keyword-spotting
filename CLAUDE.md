@@ -97,6 +97,7 @@ Root causes:
 │       ├── models/          # Trained verifier models
 │       └── results/         # Ablation experiment results
 ├── data/                    # Data directories
+│   ├── all/                 # Real human voice test data (49 files)
 │   ├── manifests/           # Lhotse data manifests
 │   ├── raw_tts/             # Synthetic TTS audio
 │   │   ├── nihao_zhenzhen/  # Positive samples (539 files)
@@ -403,16 +404,25 @@ The KWS recipe is at `icefall/egs/wenetspeech/KWS/zipformer/`.
 
 ## Test Data
 
-**IMPORTANT**: All evaluation must use the unified test dataset from audio-classification.
+**IMPORTANT**: All evaluation must use the real human voice test dataset.
 
-**Dataset Path**: `/data/workspace/llm/audio-classification/dataset/kws_test_data_merged/`
+**Primary Dataset (Real Human Voice)**: `data/all/` (from `data/kws-data-all.zip`)
+
+| Category | Count | Description |
+|----------|-------|-------------|
+| Positive (你好真真) | 10 | Real human voice recordings of "你好真真" |
+| Similar (你好珍珍/娟娟) | 3 | Similar-sounding keywords (should be rejected) |
+| Negative | 36 | Other commands and phrases |
+| **Total** | **49** | Real-world test samples |
+
+**Secondary Dataset (TTS)**: `/data/workspace/llm/audio-classification/dataset/kws_test_data_merged/`
 
 | Category | Count | Description |
 |----------|-------|-------------|
 | Positive | 144 | TTS voices (8 voices × 6 SNR levels × 3 prosody variations) |
 | Negative | 540 | Complete negative samples (includes all 84 "你好" variants) |
 
-**DO NOT** exclude the 84 "你好" variant samples (泥豪/李浩). The task is to achieve optimal performance on the **complete** test dataset.
+**Priority**: Use `data/all/` (real human voice) as the primary test dataset. The TTS dataset can be used for supplementary evaluation.
 
 ## Parameter Optimization
 

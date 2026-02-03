@@ -1,0 +1,2857 @@
+{
+  "total": 406,
+  "positive_count": 87,
+  "negative_count": 319,
+  "ratio": "1:3.67",
+  "categories": {
+    "negative_other": 301,
+    "positive_你好真真": 63,
+    "positive_你好珍珍": 24,
+    "negative_nihao_prefix": 12,
+    "negative_zhenzhen_suffix": 6
+  },
+  "samples": [
+    {
+      "file": "20260112144358_有的时候挺灵敏的.wav",
+      "text": "有的时候挺灵敏的",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144358_有的时候挺灵敏的.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172336_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172336_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105172653_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172653_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260112144631_好听完这首歌.wav",
+      "text": "好听完这首歌",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144631_好听完这首歌.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105170933_下载到真是通.wav",
+      "text": "下载到真是通",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105170933_下载到真是通.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172757_打开调试模式.wav",
+      "text": "打开调试模式",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172757_打开调试模式.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143919_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143919_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260112143926_那实际上假如说我们两个比比较近的情况下.wav",
+      "text": "那实际上假如说我们两个比比较近的情况下",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143926_那实际上假如说我们两个比比较近的情况下.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171755_收到.wav",
+      "text": "收到",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171755_收到.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144426_你看你的很远是不是.wav",
+      "text": "你看你的很远是不是",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144426_你看你的很远是不是.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143648_这次又可以.wav",
+      "text": "这次又可以",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143648_这次又可以.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20251230102822_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20251230102822_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105171759_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171759_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105172656_启动展厅.wav",
+      "text": "启动展厅",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172656_启动展厅.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144100_换新准不准.wav",
+      "text": "换新准不准",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144100_换新准不准.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105170827_你好珍珍.wav",
+      "text": "你好珍珍",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105170827_你好珍珍.wav",
+      "label": 1,
+      "category": "positive_你好珍珍"
+    },
+    {
+      "file": "20260112144816_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144816_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105171900_上报语音故障.wav",
+      "text": "上报语音故障",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171900_上报语音故障.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105170846_讲解员已切换为欧阳.wav",
+      "text": "讲解员已切换为欧阳",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105170846_讲解员已切换为欧阳.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20251212161855你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20251212161855你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260112144418_现在没什么肉包子.wav",
+      "text": "现在没什么肉包子",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144418_现在没什么肉包子.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171449_你跳着.wav",
+      "text": "你跳着",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171449_你跳着.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171228_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171228_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105171511_收到.wav",
+      "text": "收到",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171511_收到.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172921_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172921_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260112143657_是是要怎么说.wav",
+      "text": "是是要怎么说",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143657_是是要怎么说.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144807_但是那个没视频能接受吧.wav",
+      "text": "但是那个没视频能接受吧",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144807_但是那个没视频能接受吧.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171502_你好亲爱的.wav",
+      "text": "你好亲爱的",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171502_你好亲爱的.wav",
+      "label": 0,
+      "category": "negative_nihao_prefix"
+    },
+    {
+      "file": "20251212161850准备展厅.wav",
+      "text": "准备展厅",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20251212161850准备展厅.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20251212161734上报语音故障.wav",
+      "text": "上报语音故障",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20251212161734上报语音故障.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171221_珍珍在此你好珍珍.wav",
+      "text": "珍珍在此你好珍珍",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171221_珍珍在此你好珍珍.wav",
+      "label": 1,
+      "category": "positive_你好珍珍"
+    },
+    {
+      "file": "20260112143721_上报语音故障.wav",
+      "text": "上报语音故障",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143721_上报语音故障.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144142_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144142_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260112143934_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143934_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260112144801_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144801_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105171150_你好娟娟.wav",
+      "text": "你好娟娟",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171150_你好娟娟.wav",
+      "label": 0,
+      "category": "negative_nihao_prefix"
+    },
+    {
+      "file": "20260112144913_这个就直接按那个关.wav",
+      "text": "这个就直接按那个关",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144913_这个就直接按那个关.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172810_收到你好真真.wav",
+      "text": "收到你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172810_收到你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105171526_收到.wav",
+      "text": "收到",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171526_收到.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171459_上一页.wav",
+      "text": "上一页",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171459_上一页.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172954_法定代表人为马亮.wav",
+      "text": "法定代表人为马亮",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172954_法定代表人为马亮.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171416_没问题.wav",
+      "text": "没问题",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171416_没问题.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144058_现在是下有背景音乐干扰的时候.wav",
+      "text": "现在是下有背景音乐干扰的时候",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144058_现在是下有背景音乐干扰的时候.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143810_在上面闲聊加测试.wav",
+      "text": "在上面闲聊加测试",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143810_在上面闲聊加测试.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144222_嗯一本也不会出.wav",
+      "text": "嗯一本也不会出",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144222_嗯一本也不会出.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144436_三包语音故障.wav",
+      "text": "三包语音故障",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144436_三包语音故障.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171019_有应该有个人声.wav",
+      "text": "有应该有个人声",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171019_有应该有个人声.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105170838_那你直接说那个.wav",
+      "text": "那你直接说那个",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105170838_那你直接说那个.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144354_哇这个都还行啊.wav",
+      "text": "哇这个都还行啊",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144354_哇这个都还行啊.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144115_成一句话.wav",
+      "text": "成一句话",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144115_成一句话.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144423_几号真真.wav",
+      "text": "几号真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144423_几号真真.wav",
+      "label": 0,
+      "category": "negative_zhenzhen_suffix"
+    },
+    {
+      "file": "20260105172400_我去拿音箱过来.wav",
+      "text": "我去拿音箱过来",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172400_我去拿音箱过来.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171315_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171315_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105172334_你跟他说吧.wav",
+      "text": "你跟他说吧",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172334_你跟他说吧.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144007_我为了保险我再加一次双方人识别对不对.wav",
+      "text": "我为了保险我再加一次双方人识别对不对",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144007_我为了保险我再加一次双方人识别对不对.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172917_最后一页.wav",
+      "text": "最后一页",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172917_最后一页.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144457_这是四 B杠的呀.wav",
+      "text": "这是四 B杠的呀",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144457_这是四 B杠的呀.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171340_你好珍珍.wav",
+      "text": "你好珍珍",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171340_你好珍珍.wav",
+      "label": 1,
+      "category": "positive_你好珍珍"
+    },
+    {
+      "file": "20260112143634_我我中间都已经这么强的一个断气了.wav",
+      "text": "我我中间都已经这么强的一个断气了",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143634_我我中间都已经这么强的一个断气了.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144133_对啊.wav",
+      "text": "对啊",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144133_对啊.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171735_收到.wav",
+      "text": "收到",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171735_收到.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171224_返回首页.wav",
+      "text": "返回首页",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171224_返回首页.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143520_它是在识别期间嘛.wav",
+      "text": "它是在识别期间嘛",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143520_它是在识别期间嘛.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144208_这种也可以被唤醒.wav",
+      "text": "这种也可以被唤醒",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144208_这种也可以被唤醒.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172958_这还真说了你好珍珍.wav",
+      "text": "这还真说了你好珍珍",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172958_这还真说了你好珍珍.wav",
+      "label": 1,
+      "category": "positive_你好珍珍"
+    },
+    {
+      "file": "20260105171212_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171212_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260112144009_说这个代价也也不算大.wav",
+      "text": "说这个代价也也不算大",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144009_说这个代价也也不算大.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144708_你们是不是在线下买不在线上买.wav",
+      "text": "你们是不是在线下买不在线上买",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144708_你们是不是在线下买不在线上买.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144611_应聘采集的问题.wav",
+      "text": "应聘采集的问题",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144611_应聘采集的问题.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171349_上一页.wav",
+      "text": "上一页",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171349_上一页.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171402_收到.wav",
+      "text": "收到",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171402_收到.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143609_因为你原先隔得比较远嘛.wav",
+      "text": "因为你原先隔得比较远嘛",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143609_因为你原先隔得比较远嘛.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20251212161601打开电源.wav",
+      "text": "打开电源",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20251212161601打开电源.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143951_因因因为像这种情况哪怕把你的事事.wav",
+      "text": "因因因为像这种情况哪怕把你的事事",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143951_因因因为像这种情况哪怕把你的事事.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144020_这个时候还是比较准的.wav",
+      "text": "这个时候还是比较准的",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144020_这个时候还是比较准的.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171226_没问题.wav",
+      "text": "没问题",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171226_没问题.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171111_是他的.wav",
+      "text": "是他的",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171111_是他的.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171418_你好珍珍.wav",
+      "text": "你好珍珍",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171418_你好珍珍.wav",
+      "label": 1,
+      "category": "positive_你好珍珍"
+    },
+    {
+      "file": "20260112144701_哦写到哪一个.wav",
+      "text": "哦写到哪一个",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144701_哦写到哪一个.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171749_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171749_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260112143824_就是这个准确率是最麻烦的.wav",
+      "text": "就是这个准确率是最麻烦的",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143824_就是这个准确率是最麻烦的.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171833_好的.wav",
+      "text": "好的",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171833_好的.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144308_但是如果改成这种双轨制的就有一个问题那个 A刹一直在费资源.wav",
+      "text": "但是如果改成这种双轨制的就有一个问题那个 A刹一直在费资源",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144308_但是如果改成这种双轨制的就有一个问题那个 A刹一直在费资源.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171133_前往下一个展位.wav",
+      "text": "前往下一个展位",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171133_前往下一个展位.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172712_那个视频采集程序没有显示.wav",
+      "text": "那个视频采集程序没有显示",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172712_那个视频采集程序没有显示.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171301_讲解完还能单独为您服务.wav",
+      "text": "讲解完还能单独为您服务",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171301_讲解完还能单独为您服务.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144126_其声音还是干扰孩子明显是有干扰的.wav",
+      "text": "其声音还是干扰孩子明显是有干扰的",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144126_其声音还是干扰孩子明显是有干扰的.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172326_就是因为这个原因所以我所有的首饰都没有生效.wav",
+      "text": "就是因为这个原因所以我所有的首饰都没有生效",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172326_就是因为这个原因所以我所有的首饰都没有生效.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171845_好的.wav",
+      "text": "好的",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171845_好的.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172613_今天今天早上.wav",
+      "text": "今天今天早上",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172613_今天今天早上.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143645_我再试一次你好真真看看.wav",
+      "text": "我再试一次你好真真看看",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143645_我再试一次你好真真看看.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260112144026_三点三点哥.wav",
+      "text": "三点三点哥",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144026_三点三点哥.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144317_我们这个算费电的吗.wav",
+      "text": "我们这个算费电的吗",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144317_我们这个算费电的吗.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171556_无论是男女都.wav",
+      "text": "无论是男女都",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171556_无论是男女都.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20251230102835_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20251230102835_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260112144811_因为本来就发音不是很准.wav",
+      "text": "因为本来就发音不是很准",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144811_因为本来就发音不是很准.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171317_下一页.wav",
+      "text": "下一页",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171317_下一页.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144215_你你觉得这能一句话能干翻译的你好真的要换行吗.wav",
+      "text": "你你觉得这能一句话能干翻译的你好真的要换行吗",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144215_你你觉得这能一句话能干翻译的你好真的要换行吗.wav",
+      "label": 0,
+      "category": "negative_nihao_prefix"
+    },
+    {
+      "file": "20260112144240_如一开始这种还是可以判断出来的嘛.wav",
+      "text": "如一开始这种还是可以判断出来的嘛",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144240_如一开始这种还是可以判断出来的嘛.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144335_其他没有设黑色它都一直耗电.wav",
+      "text": "其他没有设黑色它都一直耗电",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144335_其他没有设黑色它都一直耗电.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172821_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172821_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105171102_他要测的主要是什么.wav",
+      "text": "他要测的主要是什么",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171102_他要测的主要是什么.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144343_那应该也问题也不大后天就后天吧.wav",
+      "text": "那应该也问题也不大后天就后天吧",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144343_那应该也问题也不大后天就后天吧.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20251212161903你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20251212161903你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260112144325_这个是耗电的吗.wav",
+      "text": "这个是耗电的吗",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144325_这个是耗电的吗.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171450_你好珍珍.wav",
+      "text": "你好珍珍",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171450_你好珍珍.wav",
+      "label": 1,
+      "category": "positive_你好珍珍"
+    },
+    {
+      "file": "20260105172941_介绍一下真通志用.wav",
+      "text": "介绍一下真通志用",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172941_介绍一下真通志用.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143611_我想当女的.wav",
+      "text": "我想当女的",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143611_我想当女的.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143946_我觉得应该还是我刚才说那个东西.wav",
+      "text": "我觉得应该还是我刚才说那个东西",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143946_我觉得应该还是我刚才说那个东西.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172215_五秒后将关闭开启当前屏幕展厅进入主题状态.wav",
+      "text": "五秒后将关闭开启当前屏幕展厅进入主题状态",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172215_五秒后将关闭开启当前屏幕展厅进入主题状态.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172729_集合啦拜拜.wav",
+      "text": "集合啦拜拜",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172729_集合啦拜拜.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144433_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144433_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260112143628_你看就是说他可能词识别不对就是你放在语境里面他那个 NSI识别的那个结果.wav",
+      "text": "你看就是说他可能词识别不对就是你放在语境里面他那个 NSI识别的那个结果",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143628_你看就是说他可能词识别不对就是你放在语境里面他那个 NSI识别的那个结果.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172235_那个音箱感觉少复印那些感觉他最好再买个音箱那样拿去太不方便了.wav",
+      "text": "那个音箱感觉少复印那些感觉他最好再买个音箱那样拿去太不方便了",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172235_那个音箱感觉少复印那些感觉他最好再买个音箱那样拿去太不方便了.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144352_你好认真.wav",
+      "text": "你好认真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144352_你好认真.wav",
+      "label": 0,
+      "category": "negative_nihao_prefix"
+    },
+    {
+      "file": "20260112144145_哦那也还行.wav",
+      "text": "哦那也还行",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144145_哦那也还行.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172727_请移步到下一个展区.wav",
+      "text": "请移步到下一个展区",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172727_请移步到下一个展区.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171616_通过声音与肩周互动获取行业产品服务信息.wav",
+      "text": "通过声音与肩周互动获取行业产品服务信息",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171616_通过声音与肩周互动获取行业产品服务信息.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172624_讲解员切换为刘欢.wav",
+      "text": "讲解员切换为刘欢",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172624_讲解员切换为刘欢.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172353_你好真真关闭电源.wav",
+      "text": "你好真真关闭电源",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172353_你好真真关闭电源.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105172348_合作.wav",
+      "text": "合作",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172348_合作.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171320_你好珍珍.wav",
+      "text": "你好珍珍",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171320_你好珍珍.wav",
+      "label": 1,
+      "category": "positive_你好珍珍"
+    },
+    {
+      "file": "20260105171534_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171534_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105171358_你好珍珍.wav",
+      "text": "你好珍珍",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171358_你好珍珍.wav",
+      "label": 1,
+      "category": "positive_你好珍珍"
+    },
+    {
+      "file": "20260112143821_就是山姆和成龙说的一样.wav",
+      "text": "就是山姆和成龙说的一样",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143821_就是山姆和成龙说的一样.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20251231111634_已就位请在屏幕下方.wav",
+      "text": "已就位请在屏幕下方",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20251231111634_已就位请在屏幕下方.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143849_我们也不会说说你的坏话你你怕啥.wav",
+      "text": "我们也不会说说你的坏话你你怕啥",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143849_我们也不会说说你的坏话你你怕啥.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144301_你看他们的 S四在识别但是那个也在识别所以就应该问题不大.wav",
+      "text": "你看他们的 S四在识别但是那个也在识别所以就应该问题不大",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144301_你看他们的 S四在识别但是那个也在识别所以就应该问题不大.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171306_快来开启奇妙之旅吧.wav",
+      "text": "快来开启奇妙之旅吧",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171306_快来开启奇妙之旅吧.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143529_那个我们的你上去吧.wav",
+      "text": "那个我们的你上去吧",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143529_那个我们的你上去吧.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172913_你坐着.wav",
+      "text": "你坐着",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172913_你坐着.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144154_你好郑真.wav",
+      "text": "你好郑真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144154_你好郑真.wav",
+      "label": 0,
+      "category": "negative_nihao_prefix"
+    },
+    {
+      "file": "20260105170918_这次我们要为.wav",
+      "text": "这次我们要为",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105170918_这次我们要为.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171727_没问题.wav",
+      "text": "没问题",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171727_没问题.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171524_下一页.wav",
+      "text": "下一页",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171524_下一页.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171752_打开百分百的啊.wav",
+      "text": "打开百分百的啊",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171752_打开百分百的啊.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171021_在此处打卡呀.wav",
+      "text": "在此处打卡呀",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171021_在此处打卡呀.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143658_你要上报云部长.wav",
+      "text": "你要上报云部长",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143658_你要上报云部长.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171619_服务超大指令发货百问百答.wav",
+      "text": "服务超大指令发货百问百答",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171619_服务超大指令发货百问百答.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171100_集合啦集合啦我们在这里讲解下个产品啦.wav",
+      "text": "集合啦集合啦我们在这里讲解下个产品啦",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171100_集合啦集合啦我们在这里讲解下个产品啦.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20251212161847你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20251212161847你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260112143758_明天三十七.wav",
+      "text": "明天三十七",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143758_明天三十七.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171126_讲解员切换为欧阳.wav",
+      "text": "讲解员切换为欧阳",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171126_讲解员切换为欧阳.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144453_这种情况下不应该出个盒子应该也要滴一下吗.wav",
+      "text": "这种情况下不应该出个盒子应该也要滴一下吗",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144453_这种情况下不应该出个盒子应该也要滴一下吗.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171509_上报语音故障.wav",
+      "text": "上报语音故障",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171509_上报语音故障.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105170829_珍珍准备展厅.wav",
+      "text": "珍珍准备展厅",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105170829_珍珍准备展厅.wav",
+      "label": 0,
+      "category": "negative_zhenzhen_suffix"
+    },
+    {
+      "file": "20260105171425_你好珍珍.wav",
+      "text": "你好珍珍",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171425_你好珍珍.wav",
+      "label": 1,
+      "category": "positive_你好珍珍"
+    },
+    {
+      "file": "20260112143524_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143524_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260112144108_声音再放大一点.wav",
+      "text": "声音再放大一点",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144108_声音再放大一点.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143717_是啊所以我们要测的就是这种情况呀.wav",
+      "text": "是啊所以我们要测的就是这种情况呀",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143717_是啊所以我们要测的就是这种情况呀.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105170927_你是灰色.wav",
+      "text": "你是灰色",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105170927_你是灰色.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171344_没问题.wav",
+      "text": "没问题",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171344_没问题.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144203_现现在我试一下你好真真的效果.wav",
+      "text": "现现在我试一下你好真真的效果",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144203_现现在我试一下你好真真的效果.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105171242_没问题.wav",
+      "text": "没问题",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171242_没问题.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171610_你有哪些常见操作指令.wav",
+      "text": "你有哪些常见操作指令",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171610_你有哪些常见操作指令.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144819_我觉得还行啊.wav",
+      "text": "我觉得还行啊",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144819_我觉得还行啊.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143930_你说估计也会被弄散假如我这个地方放在我这个邻家这个地方.wav",
+      "text": "你说估计也会被弄散假如我这个地方放在我这个邻家这个地方",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143930_你说估计也会被弄散假如我这个地方放在我这个邻家这个地方.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143700_你没开你没开.wav",
+      "text": "你没开你没开",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143700_你没开你没开.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144127_找他不是吗.wav",
+      "text": "找他不是吗",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144127_找他不是吗.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144023_等一下我发个朋友圈.wav",
+      "text": "等一下我发个朋友圈",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144023_等一下我发个朋友圈.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172225_你要珍珍.wav",
+      "text": "你要珍珍",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172225_你要珍珍.wav",
+      "label": 0,
+      "category": "negative_zhenzhen_suffix"
+    },
+    {
+      "file": "20260105171746_下一页.wav",
+      "text": "下一页",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171746_下一页.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171352_没问题两千块钱.wav",
+      "text": "没问题两千块钱",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171352_没问题两千块钱.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105173000_商报故障.wav",
+      "text": "商报故障",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105173000_商报故障.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172347_若有合作.wav",
+      "text": "若有合作",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172347_若有合作.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172447_打开电源.wav",
+      "text": "打开电源",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172447_打开电源.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143846_也也没啥关系我们.wav",
+      "text": "也也没啥关系我们",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143846_也也没啥关系我们.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171531_最后一页.wav",
+      "text": "最后一页",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171531_最后一页.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144412_你好珍珍.wav",
+      "text": "你好珍珍",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144412_你好珍珍.wav",
+      "label": 1,
+      "category": "positive_你好珍珍"
+    },
+    {
+      "file": "20260105171541_你好珍珍.wav",
+      "text": "你好珍珍",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171541_你好珍珍.wav",
+      "label": 1,
+      "category": "positive_你好珍珍"
+    },
+    {
+      "file": "20260105172734_集合啦集合啦我们在这里讲解下个产品啦.wav",
+      "text": "集合啦集合啦我们在这里讲解下个产品啦",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172734_集合啦集合啦我们在这里讲解下个产品啦.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143953_收进去了之后对不对.wav",
+      "text": "收进去了之后对不对",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143953_收进去了之后对不对.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143539_是的呀.wav",
+      "text": "是的呀",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143539_是的呀.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172452_我才不等了.wav",
+      "text": "我才不等了",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172452_我才不等了.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20251230102654_啧啧啧.wav",
+      "text": "啧啧啧",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20251230102654_啧啧啧.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172346_我待会儿结束啦.wav",
+      "text": "我待会儿结束啦",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172346_我待会儿结束啦.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172407_还有五分钟.wav",
+      "text": "还有五分钟",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172407_还有五分钟.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171632_手要在肩部以上.wav",
+      "text": "手要在肩部以上",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171632_手要在肩部以上.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171047_传统展厅.wav",
+      "text": "传统展厅",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171047_传统展厅.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144828_就是你不好带客户来的时候多一点.wav",
+      "text": "就是你不好带客户来的时候多一点",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144828_就是你不好带客户来的时候多一点.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171140_集合啦.wav",
+      "text": "集合啦",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171140_集合啦.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172911_下一页.wav",
+      "text": "下一页",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172911_下一页.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172621_你好珍珍.wav",
+      "text": "你好珍珍",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172621_你好珍珍.wav",
+      "label": 1,
+      "category": "positive_你好珍珍"
+    },
+    {
+      "file": "20260105172313_但是说那程序没启动.wav",
+      "text": "但是说那程序没启动",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172313_但是说那程序没启动.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171157_你好亲爱的.wav",
+      "text": "你好亲爱的",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171157_你好亲爱的.wav",
+      "label": 0,
+      "category": "negative_nihao_prefix"
+    },
+    {
+      "file": "20260112144105_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144105_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105171547_收到.wav",
+      "text": "收到",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171547_收到.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20251231111236_已就位请在评论区留言.wav",
+      "text": "已就位请在评论区留言",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20251231111236_已就位请在评论区留言.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171404_刚刚有一个.wav",
+      "text": "刚刚有一个",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171404_刚刚有一个.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171625_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171625_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105172333_那那你在群里跟妍妍说吧我都不知道是这个原因呢.wav",
+      "text": "那那你在群里跟妍妍说吧我都不知道是这个原因呢",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172333_那那你在群里跟妍妍说吧我都不知道是这个原因呢.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143932_那你你说一下.wav",
+      "text": "那你你说一下",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143932_那你你说一下.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172208_当前我们预约以自动.wav",
+      "text": "当前我们预约以自动",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172208_当前我们预约以自动.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20251231111722_一起来.wav",
+      "text": "一起来",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20251231111722_一起来.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144014_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144014_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260112143947_不能漏报.wav",
+      "text": "不能漏报",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143947_不能漏报.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143922_哦这么远还是可以的.wav",
+      "text": "哦这么远还是可以的",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143922_哦这么远还是可以的.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144615_应该是没什么问题了吧.wav",
+      "text": "应该是没什么问题了吧",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144615_应该是没什么问题了吧.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172340_视频采集程序没启动的原因.wav",
+      "text": "视频采集程序没启动的原因",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172340_视频采集程序没启动的原因.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144416_其实这很准啊我觉得.wav",
+      "text": "其实这很准啊我觉得",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144416_其实这很准啊我觉得.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171852_你要有真真.wav",
+      "text": "你要有真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171852_你要有真真.wav",
+      "label": 0,
+      "category": "negative_zhenzhen_suffix"
+    },
+    {
+      "file": "20260105171606_请问有什么可以帮您你好真真.wav",
+      "text": "请问有什么可以帮您你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171606_请问有什么可以帮您你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105172349_咨询一下吧.wav",
+      "text": "咨询一下吧",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172349_咨询一下吧.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171456_你好你好真真.wav",
+      "text": "你好你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171456_你好你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105172908_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172908_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260112144323_有些手机啊或者电脑的吗.wav",
+      "text": "有些手机啊或者电脑的吗",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144323_有些手机啊或者电脑的吗.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171819_真是通是哪一年上市的.wav",
+      "text": "真是通是哪一年上市的",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171819_真是通是哪一年上市的.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143709_唤醒的时候他不唤醒了.wav",
+      "text": "唤醒的时候他不唤醒了",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143709_唤醒的时候他不唤醒了.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171552_打开百问百答.wav",
+      "text": "打开百问百答",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171552_打开百问百答.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20251212162051你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20251212162051你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260112143635_你前面这.wav",
+      "text": "你前面这",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143635_你前面这.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172444_你好珍珍.wav",
+      "text": "你好珍珍",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172444_你好珍珍.wav",
+      "label": 1,
+      "category": "positive_你好珍珍"
+    },
+    {
+      "file": "20260105171730_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171730_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105172902_上报故障.wav",
+      "text": "上报故障",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172902_上报故障.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105170816_它怎么都没有声音呢.wav",
+      "text": "它怎么都没有声音呢",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105170816_它怎么都没有声音呢.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171548_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171548_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105172950_今天志愿者是一家成立于一九九四年四月二十四日.wav",
+      "text": "今天志愿者是一家成立于一九九四年四月二十四日",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172950_今天志愿者是一家成立于一九九四年四月二十四日.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144250_因为他前面的那个是.wav",
+      "text": "因为他前面的那个是",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144250_因为他前面的那个是.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144919_应该是的.wav",
+      "text": "应该是的",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144919_应该是的.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143752_然后我可以把你这个.wav",
+      "text": "然后我可以把你这个",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143752_然后我可以把你这个.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171046_前往.wav",
+      "text": "前往",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171046_前往.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20251231111841_一句话也写在.wav",
+      "text": "一句话也写在",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20251231111841_一句话也写在.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171206_上报语音故障.wav",
+      "text": "上报语音故障",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171206_上报语音故障.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172358_你等全部关闭了再开我去拿音响过来.wav",
+      "text": "你等全部关闭了再开我去拿音响过来",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172358_你等全部关闭了再开我去拿音响过来.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171843_打开大屏电源.wav",
+      "text": "打开大屏电源",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171843_打开大屏电源.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143531_我会抽.wav",
+      "text": "我会抽",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143531_我会抽.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172342_廖珍珍关闭展厅.wav",
+      "text": "廖珍珍关闭展厅",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172342_廖珍珍关闭展厅.wav",
+      "label": 0,
+      "category": "negative_zhenzhen_suffix"
+    },
+    {
+      "file": "20260105172904_没问题.wav",
+      "text": "没问题",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172904_没问题.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143538_这你你聊聊了之后突然一下你要点赞了.wav",
+      "text": "这你你聊聊了之后突然一下你要点赞了",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143538_这你你聊聊了之后突然一下你要点赞了.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20251212161731你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20251212161731你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105172216_就那个全亮的.wav",
+      "text": "就那个全亮的",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172216_就那个全亮的.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143639_在后面可以看日志是吧.wav",
+      "text": "在后面可以看日志是吧",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143639_在后面可以看日志是吧.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143819_哎所以所以这些东西真的就是.wav",
+      "text": "哎所以所以这些东西真的就是",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143819_哎所以所以这些东西真的就是.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171237_资料已打开你好真真.wav",
+      "text": "资料已打开你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171237_资料已打开你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260112144633_就结束厕所.wav",
+      "text": "就结束厕所",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144633_就结束厕所.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144836_嗯.wav",
+      "text": "嗯",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144836_嗯.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144605_现在除了那个.wav",
+      "text": "现在除了那个",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144605_现在除了那个.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171118_看有没有需要语音识别的问题是吧还有响应速度问题.wav",
+      "text": "看有没有需要语音识别的问题是吧还有响应速度问题",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171118_看有没有需要语音识别的问题是吧还有响应速度问题.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172813_上报语音故障.wav",
+      "text": "上报语音故障",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172813_上报语音故障.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171602_无论是查数据找方案还是问趋势随时呼唤我都能为您解答.wav",
+      "text": "无论是查数据找方案还是问趋势随时呼唤我都能为您解答",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171602_无论是查数据找方案还是问趋势随时呼唤我都能为您解答.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171528_你好珍珍.wav",
+      "text": "你好珍珍",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171528_你好珍珍.wav",
+      "label": 1,
+      "category": "positive_你好珍珍"
+    },
+    {
+      "file": "20260105172303_只是头一次遇见.wav",
+      "text": "只是头一次遇见",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172303_只是头一次遇见.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171721_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171721_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105171423_好的.wav",
+      "text": "好的",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171423_好的.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144917_乱这个电源是吗.wav",
+      "text": "乱这个电源是吗",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144917_乱这个电源是吗.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144341_我们的盒子是乳胶的乳胶的.wav",
+      "text": "我们的盒子是乳胶的乳胶的",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144341_我们的盒子是乳胶的乳胶的.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143541_你看这下你好这针就没有.wav",
+      "text": "你看这下你好这针就没有",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143541_你看这下你好这针就没有.wav",
+      "label": 0,
+      "category": "negative_nihao_prefix"
+    },
+    {
+      "file": "20251231111110_已就位请在评论区留言.wav",
+      "text": "已就位请在评论区留言",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20251231111110_已就位请在评论区留言.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143712_他刚才也是这么远.wav",
+      "text": "他刚才也是这么远",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143712_他刚才也是这么远.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144023_我三点.wav",
+      "text": "我三点",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144023_我三点.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172806_上报故障.wav",
+      "text": "上报故障",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172806_上报故障.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171407_你下班了.wav",
+      "text": "你下班了",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171407_你下班了.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171053_前往传统展区.wav",
+      "text": "前往传统展区",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171053_前往传统展区.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143605_乃这是要要要.wav",
+      "text": "乃这是要要要",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143605_乃这是要要要.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144233_这怎么不好攻略.wav",
+      "text": "这怎么不好攻略",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144233_这怎么不好攻略.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144429_但凡你比较近一点.wav",
+      "text": "但凡你比较近一点",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144429_但凡你比较近一点.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171215_打开百问百答.wav",
+      "text": "打开百问百答",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171215_打开百问百答.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143603_我再试下你好认真啊.wav",
+      "text": "我再试下你好认真啊",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143603_我再试下你好认真啊.wav",
+      "label": 0,
+      "category": "negative_nihao_prefix"
+    },
+    {
+      "file": "20260112144515_这一枚还没起.wav",
+      "text": "这一枚还没起",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144515_这一枚还没起.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144610_呃唤醒孩子的注意力.wav",
+      "text": "呃唤醒孩子的注意力",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144610_呃唤醒孩子的注意力.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144136_我分明的.wav",
+      "text": "我分明的",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144136_我分明的.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172931_带给他看.wav",
+      "text": "带给他看",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172931_带给他看.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143741_上报语音故障.wav",
+      "text": "上报语音故障",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143741_上报语音故障.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143637_你可以在后面.wav",
+      "text": "你可以在后面",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143637_你可以在后面.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171537_返回首页.wav",
+      "text": "返回首页",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171537_返回首页.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144337_你们说我们程序没影响对吧.wav",
+      "text": "你们说我们程序没影响对吧",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144337_你们说我们程序没影响对吧.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171837_关闭什么.wav",
+      "text": "关闭什么",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171837_关闭什么.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143607_还是这个距离的问题.wav",
+      "text": "还是这个距离的问题",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143607_还是这个距离的问题.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171313_没问题.wav",
+      "text": "没问题",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171313_没问题.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144003_我是 KW是出发成功了之后.wav",
+      "text": "我是 KW是出发成功了之后",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144003_我是 KW是出发成功了之后.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143737_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143737_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105172247_我不知道因为他没报那个准备成功准备失败我都不知道.wav",
+      "text": "我不知道因为他没报那个准备成功准备失败我都不知道",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172247_我不知道因为他没报那个准备成功准备失败我都不知道.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143845_不是独山吗又又没.wav",
+      "text": "不是独山吗又又没",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143845_不是独山吗又又没.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144246_如果我中间说一个你好珍珍.wav",
+      "text": "如果我中间说一个你好珍珍",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144246_如果我中间说一个你好珍珍.wav",
+      "label": 1,
+      "category": "positive_你好珍珍"
+    },
+    {
+      "file": "20260105172721_去.wav",
+      "text": "去",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172721_去.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105173008_上报故障.wav",
+      "text": "上报故障",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105173008_上报故障.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144645_你周末在家干啥.wav",
+      "text": "你周末在家干啥",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144645_你周末在家干啥.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171748_已跳转.wav",
+      "text": "已跳转",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171748_已跳转.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143957_我们以后比如可以加个说话人识别也能过滤掉对不对.wav",
+      "text": "我们以后比如可以加个说话人识别也能过滤掉对不对",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143957_我们以后比如可以加个说话人识别也能过滤掉对不对.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172938_请问有什么可以帮您你好珍珍.wav",
+      "text": "请问有什么可以帮您你好珍珍",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172938_请问有什么可以帮您你好珍珍.wav",
+      "label": 1,
+      "category": "positive_你好珍珍"
+    },
+    {
+      "file": "20251212161558你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20251212161558你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105171743_好的你好真真.wav",
+      "text": "好的你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171743_好的你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260112143652_这么远的距离你脑子里的声不可能超过这么远了.wav",
+      "text": "这么远的距离你脑子里的声不可能超过这么远了",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143652_这么远的距离你脑子里的声不可能超过这么远了.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172408_选这个电影都不错.wav",
+      "text": "选这个电影都不错",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172408_选这个电影都不错.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144510_但是唤醒的声音是这个发的.wav",
+      "text": "但是唤醒的声音是这个发的",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144510_但是唤醒的声音是这个发的.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171414_返回首页.wav",
+      "text": "返回首页",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171414_返回首页.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171515_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171515_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105171657_没有识别呀.wav",
+      "text": "没有识别呀",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171657_没有识别呀.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172210_自动为你设置为默认演示模式.wav",
+      "text": "自动为你设置为默认演示模式",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172210_自动为你设置为默认演示模式.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171506_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171506_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105172206_讲解员已切换为刘欢.wav",
+      "text": "讲解员已切换为刘欢",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172206_讲解员已切换为刘欢.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143631_并不是没有匹配到我的唤醒词.wav",
+      "text": "并不是没有匹配到我的唤醒词",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143631_并不是没有匹配到我的唤醒词.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171204_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171204_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105172924_打开百问百答.wav",
+      "text": "打开百问百答",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172924_打开百问百答.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143900_你你你你在那边说一下看你这个月.wav",
+      "text": "你你你你在那边说一下看你这个月",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143900_你你你你在那边说一下看你这个月.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144255_就是我说的嘛他开他们那个车是 A刹是并行的嘛.wav",
+      "text": "就是我说的嘛他开他们那个车是 A刹是并行的嘛",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144255_就是我说的嘛他开他们那个车是 A刹是并行的嘛.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172914_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172914_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105172927_真真在此.wav",
+      "text": "真真在此",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172927_真真在此.wav",
+      "label": 0,
+      "category": "negative_zhenzhen_suffix"
+    },
+    {
+      "file": "20260112143558_怎么好这个样子呀.wav",
+      "text": "怎么好这个样子呀",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143558_怎么好这个样子呀.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144042_但是这样不行啊关键是.wav",
+      "text": "但是这样不行啊关键是",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144042_但是这样不行啊关键是.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20251212162054上报语音故障.wav",
+      "text": "上报语音故障",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20251212162054上报语音故障.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144421_除非离得足够远的时候.wav",
+      "text": "除非离得足够远的时候",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144421_除非离得足够远的时候.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171856_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171856_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105172321_但是他又不影响其他的先这样吧.wav",
+      "text": "但是他又不影响其他的先这样吧",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172321_但是他又不影响其他的先这样吧.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105170854_当前无预约以自动为你设置为默认演示模式五秒后关闭当前屏幕卡机进入准备状态.wav",
+      "text": "当前无预约以自动为你设置为默认演示模式五秒后关闭当前屏幕卡机进入准备状态",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105170854_当前无预约以自动为你设置为默认演示模式五秒后关闭当前屏幕卡机进入准备状态.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172555_你好珍珍.wav",
+      "text": "你好珍珍",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172555_你好珍珍.wav",
+      "label": 1,
+      "category": "positive_你好珍珍"
+    },
+    {
+      "file": "20260105171342_下一页.wav",
+      "text": "下一页",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171342_下一页.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171828_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171828_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105171138_前往传统展区.wav",
+      "text": "前往传统展区",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171138_前往传统展区.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20251231110552_已就位请在评论区留言.wav",
+      "text": "已就位请在评论区留言",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20251231110552_已就位请在评论区留言.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171816_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171816_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105172317_你可能得关闭一下电源再开一下.wav",
+      "text": "你可能得关闭一下电源再开一下",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172317_你可能得关闭一下电源再开一下.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171810_这次的会议真是通过二零一五年在深交所成功上市.wav",
+      "text": "这次的会议真是通过二零一五年在深交所成功上市",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171810_这次的会议真是通过二零一五年在深交所成功上市.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171453_下一页.wav",
+      "text": "下一页",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171453_下一页.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144824_二十分钟还是十五分钟.wav",
+      "text": "二十分钟还是十五分钟",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144824_二十分钟还是十五分钟.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171715_退出调试模式.wav",
+      "text": "退出调试模式",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171715_退出调试模式.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143901_客户的声音.wav",
+      "text": "客户的声音",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143901_客户的声音.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172249_你好真真启动一展厅.wav",
+      "text": "你好真真启动一展厅",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172249_你好真真启动一展厅.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105172803_你好珍珍.wav",
+      "text": "你好珍珍",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172803_你好珍珍.wav",
+      "label": 1,
+      "category": "positive_你好珍珍"
+    },
+    {
+      "file": "20260105172919_好的.wav",
+      "text": "好的",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172919_好的.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105173005_你好珍珍.wav",
+      "text": "你好珍珍",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105173005_你好珍珍.wav",
+      "label": 1,
+      "category": "positive_你好珍珍"
+    },
+    {
+      "file": "20260112144320_几只小猫在叫.wav",
+      "text": "几只小猫在叫",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144320_几只小猫在叫.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144149_翻远了之后就影响没那么大.wav",
+      "text": "翻远了之后就影响没那么大",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144149_翻远了之后就影响没那么大.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172849_是我的这个地方要比肩高吗.wav",
+      "text": "是我的这个地方要比肩高吗",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172849_是我的这个地方要比肩高吗.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143729_这种情况下我也不知道他算没算到成功.wav",
+      "text": "这种情况下我也不知道他算没算到成功",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143729_这种情况下我也不知道他算没算到成功.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171123_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171123_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105171410_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171410_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105171201_嗯拜拜.wav",
+      "text": "嗯拜拜",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171201_嗯拜拜.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171208_没问题.wav",
+      "text": "没问题",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171208_没问题.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143506_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143506_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260112144219_也没关系啊.wav",
+      "text": "也没关系啊",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144219_也没关系啊.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171711_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171711_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105171518_对吧.wav",
+      "text": "对吧",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171518_对吧.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20251231110543_你这你这.wav",
+      "text": "你这你这",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20251231110543_你这你这.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171740_下一页.wav",
+      "text": "下一页",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171740_下一页.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143550_哦.wav",
+      "text": "哦",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143550_哦.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171628_打开调试模式.wav",
+      "text": "打开调试模式",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171628_打开调试模式.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172824_打开调试模式.wav",
+      "text": "打开调试模式",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172824_打开调试模式.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171239_返回首页.wav",
+      "text": "返回首页",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171239_返回首页.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171145_集合啦集合啦我们在这里讲解下个产品啦.wav",
+      "text": "集合啦集合啦我们在这里讲解下个产品啦",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171145_集合啦集合啦我们在这里讲解下个产品啦.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171107_你好娟娟.wav",
+      "text": "你好娟娟",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171107_你好娟娟.wav",
+      "label": 0,
+      "category": "negative_nihao_prefix"
+    },
+    {
+      "file": "20260105171521_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171521_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105171732_下一页.wav",
+      "text": "下一页",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171732_下一页.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171624_百达关闭百万百达新的规划内容向上内容向下请求回答.wav",
+      "text": "百达关闭百万百达新的规划内容向上内容向下请求回答",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171624_百达关闭百万百达新的规划内容向上内容向下请求回答.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143801_按三七我可以少用白一小时等于一瓶饮料.wav",
+      "text": "按三七我可以少用白一小时等于一瓶饮料",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143801_按三七我可以少用白一小时等于一瓶饮料.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143734_这个时候你你不会说好的吧.wav",
+      "text": "这个时候你你不会说好的吧",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143734_这个时候你你不会说好的吧.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172636_五秒后将关闭当前屏幕展厅进入准备状态.wav",
+      "text": "五秒后将关闭当前屏幕展厅进入准备状态",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172636_五秒后将关闭当前屏幕展厅进入准备状态.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171246_做个自我介绍.wav",
+      "text": "做个自我介绍",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171246_做个自我介绍.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144001_因为我不是每一句都要说话的识别嘛.wav",
+      "text": "因为我不是每一句都要说话的识别嘛",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144001_因为我不是每一句都要说话的识别嘛.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171153_下一页.wav",
+      "text": "下一页",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171153_下一页.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143620_我再试一下你好真真.wav",
+      "text": "我再试一下你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143620_我再试一下你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105171018_按道理应该说有.wav",
+      "text": "按道理应该说有",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171018_按道理应该说有.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171243_你好珍珍.wav",
+      "text": "你好珍珍",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171243_你好珍珍.wav",
+      "label": 1,
+      "category": "positive_你好珍珍"
+    },
+    {
+      "file": "20260105171400_上报语音故障.wav",
+      "text": "上报语音故障",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171400_上报语音故障.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105173012_没问题你好珍珍.wav",
+      "text": "没问题你好珍珍",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105173012_没问题你好珍珍.wav",
+      "label": 1,
+      "category": "positive_你好珍珍"
+    },
+    {
+      "file": "20260105173015_上报语音故障.wav",
+      "text": "上报语音故障",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105173015_上报语音故障.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171447_下一页.wav",
+      "text": "下一页",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171447_下一页.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144120_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144120_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105172952_停止回答.wav",
+      "text": "停止回答",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172952_停止回答.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143718_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143718_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105170840_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105170840_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260112143535_我们我们在这边闲聊嘛.wav",
+      "text": "我们我们在这边闲聊嘛",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143535_我们我们在这边闲聊嘛.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144522_你真会说小小问题而已.wav",
+      "text": "你真会说小小问题而已",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144522_你真会说小小问题而已.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172815_好的.wav",
+      "text": "好的",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172815_好的.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105170842_讲解员切换为欧阳.wav",
+      "text": "讲解员切换为欧阳",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105170842_讲解员切换为欧阳.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171304_加我微信讲解真的轻松到手.wav",
+      "text": "加我微信讲解真的轻松到手",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171304_加我微信讲解真的轻松到手.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171435_你好娟娟.wav",
+      "text": "你好娟娟",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171435_你好娟娟.wav",
+      "label": 0,
+      "category": "negative_nihao_prefix"
+    },
+    {
+      "file": "20260105171802_真是通是哪一年上市的.wav",
+      "text": "真是通是哪一年上市的",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171802_真是通是哪一年上市的.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144507_就这个不发是吗.wav",
+      "text": "就这个不发是吗",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144507_就这个不发是吗.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171347_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171347_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105172631_讲解员已切换为刘华当前无预约以自动为你设置为默认演示模式.wav",
+      "text": "讲解员已切换为刘华当前无预约以自动为你设置为默认演示模式",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172631_讲解员已切换为刘华当前无预约以自动为你设置为默认演示模式.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144312_我们这个.wav",
+      "text": "我们这个",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144312_我们这个.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144613_还有首饰.wav",
+      "text": "还有首饰",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144613_还有首饰.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143553_我我我再试一下你好真真.wav",
+      "text": "我我我再试一下你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143553_我我我再试一下你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260112144829_六十.wav",
+      "text": "六十",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144829_六十.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144333_但是这个我们不管做不做.wav",
+      "text": "但是这个我们不管做不做",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144333_但是这个我们不管做不做.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172404_没有办法.wav",
+      "text": "没有办法",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172404_没有办法.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171307_你好珍珍.wav",
+      "text": "你好珍珍",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171307_你好珍珍.wav",
+      "label": 1,
+      "category": "positive_你好珍珍"
+    },
+    {
+      "file": "20260105172402_又又要开呀真是下班了.wav",
+      "text": "又又要开呀真是下班了",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172402_又又要开呀真是下班了.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172859_你好珍珍.wav",
+      "text": "你好珍珍",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172859_你好珍珍.wav",
+      "label": 1,
+      "category": "positive_你好珍珍"
+    },
+    {
+      "file": "20260105171826_真是通于二零一五年在深交所成功上市首饰都不行哦.wav",
+      "text": "真是通于二零一五年在深交所成功上市首饰都不行哦",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171826_真是通于二零一五年在深交所成功上市首饰都不行哦.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171737_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171737_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260112143642_又等了这么久.wav",
+      "text": "又等了这么久",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143642_又等了这么久.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143749_一小时的你知道一小时想告诉我吗.wav",
+      "text": "一小时的你知道一小时想告诉我吗",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143749_一小时的你知道一小时想告诉我吗.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105170832_现在终于听到丁了.wav",
+      "text": "现在终于听到丁了",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105170832_现在终于听到丁了.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171323_上一页.wav",
+      "text": "上一页",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171323_上一页.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20251212161858上报云故障.wav",
+      "text": "上报云故障",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20251212161858上报云故障.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172558_准备展厅.wav",
+      "text": "准备展厅",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172558_准备展厅.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112143613_现在我再说一下你好郑郑看看.wav",
+      "text": "现在我再说一下你好郑郑看看",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112143613_现在我再说一下你好郑郑看看.wav",
+      "label": 0,
+      "category": "negative_nihao_prefix"
+    },
+    {
+      "file": "20260112144036_哎你听说过.wav",
+      "text": "哎你听说过",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144036_哎你听说过.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171201_这有一个.wav",
+      "text": "这有一个",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171201_这有一个.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144237_飞机在沉默因为你如果是.wav",
+      "text": "飞机在沉默因为你如果是",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144237_飞机在沉默因为你如果是.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172720_请移步到下一个路口.wav",
+      "text": "请移步到下一个路口",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172720_请移步到下一个路口.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171327_你翻译你好珍珍.wav",
+      "text": "你翻译你好珍珍",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171327_你翻译你好珍珍.wav",
+      "label": 1,
+      "category": "positive_你好珍珍"
+    },
+    {
+      "file": "20251212161906上报语音故障.wav",
+      "text": "上报语音故障",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20251212161906上报语音故障.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171444_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171444_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105172934_随时呼唤我都能为您解答.wav",
+      "text": "随时呼唤我都能为您解答",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172934_随时呼唤我都能为您解答.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105170911_启动展厅.wav",
+      "text": "启动展厅",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105170911_启动展厅.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105171840_你好真真.wav",
+      "text": "你好真真",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171840_你好真真.wav",
+      "label": 1,
+      "category": "positive_你好真真"
+    },
+    {
+      "file": "20260105171513_能漏一个啊.wav",
+      "text": "能漏一个啊",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105171513_能漏一个啊.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172218_那个关于视频采集的程序.wav",
+      "text": "那个关于视频采集的程序",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172218_那个关于视频采集的程序.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144915_按住.wav",
+      "text": "按住",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144915_按住.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144131_你刚好和他唱的歌在一起的时候.wav",
+      "text": "你刚好和他唱的歌在一起的时候",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144131_你刚好和他唱的歌在一起的时候.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260112144444_其实我觉得应该是这样的.wav",
+      "text": "其实我觉得应该是这样的",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260112144444_其实我觉得应该是这样的.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105172701_按说刚刚没有这个采集视频采集.wav",
+      "text": "按说刚刚没有这个采集视频采集",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105172701_按说刚刚没有这个采集视频采集.wav",
+      "label": 0,
+      "category": "negative_other"
+    },
+    {
+      "file": "20260105170909_你好娟娟.wav",
+      "text": "你好娟娟",
+      "path": "/data/workspace/llm/keyword-spotting/data/all/20260105170909_你好娟娟.wav",
+      "label": 0,
+      "category": "negative_nihao_prefix"
+    }
+  ]
+}
