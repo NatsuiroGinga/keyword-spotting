@@ -80,10 +80,10 @@ result = detector.detect("audio.wav")
 
 | Category | Count | Description |
 |----------|-------|-------------|
-| Positive (你好真真) | 10 | Real human voice recordings of "你好真真" |
-| Similar (你好珍珍/娟娟) | 3 | Similar-sounding keywords (should be rejected) |
-| Negative | 36 | Other commands and phrases |
-| **Total** | **49** | Real-world test samples |
+| Positive (你好真真) | 63 | Real human voice recordings of "你好真真" |
+| Similar (你好珍珍/娟娟) | 28 | Similar-sounding keywords (should be rejected) |
+| Negative | 315 | Other commands and phrases |
+| **Total** | **406** | Real-world test samples |
 
 **Priority**: Use `data/all/` (real human voice) as the primary test dataset for all experiments.
 
@@ -101,7 +101,7 @@ result = detector.detect("audio.wav")
 ├── exp/                      # Legacy experiment outputs
 │   └── kws_finetune_v3/      # V3 model
 ├── data/
-│   ├── all/                  # Real human voice test data (49 files)
+│   ├── all/                  # Real human voice test data (406 files)
 │   ├── manifests/            # Lhotse data manifests
 │   └── lang_partial_tone/    # Token vocabulary (pinyin-based)
 ├── log/                      # Log files (ALL logs must be placed here)
