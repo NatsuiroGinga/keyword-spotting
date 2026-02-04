@@ -11,9 +11,15 @@
 | 方案 | FRR | FAR | 准确率 | F1 | 延迟 | RTF |
 |------|-----|-----|--------|----|----|----|
 | Baseline (仅V3) | 0.00% | 72.22% | 42.98% | 42.48% | 33ms | 0.0182 |
-| **V3 + MLP** | **0.00%** | **1.30%** | **98.98%** | **97.63%** | 46ms | 0.0249 |
+| V3 + MLP | 0.00% | 1.30% | 98.98% | 97.63% | 46ms | 0.0249 |
+| **V4 Streaming (FP32)** | **2.30%** | **5.64%** | **95.07%** | **89.47%** | - | 0.0185 |
+| V4 Streaming (INT8) | 2.30% | 5.96% | 94.33% | 89.01% | - | 0.0140 |
 
-**核心成果**: FAR 从 72.22% 降至 1.30%（降低 70.93%），同时保持 FRR 为 0%。
+**核心成果**:
+- V3 + MLP: FAR 从 72.22% 降至 1.30%（降低 70.93%），同时保持 FRR 为 0%
+- V4 Streaming: 单阶段流式检测，支持 FP32/INT8 量化，INT8 体积减小 62%，速度提升 24%
+
+**推荐**: V4 Streaming (epoch-33) - 单阶段，实时性好，已部署到 HuggingFace
 
 ### 技术栈
 
@@ -35,7 +41,7 @@ keyword-spotting/
 ├── DEPLOYMENT_SUMMARY.md     # 部署总结
 │
 ├── data/                     # 数据目录
-│   ├── all/                  # 真人语音测试数据 (49 个文件)
+│   ├── all/                  # 真人语音测试数据 (406 个文件)
 │   ├── manifests/            # Lhotse 数据清单
 │   ├── raw_tts/              # 合成 TTS 音频
 │   └── lang_partial_tone/    # 词汇表（拼音+声调）
@@ -61,16 +67,21 @@ keyword-spotting/
 │   ├── hf_upload_guide.md          # HF 上传指南
 │   └── windows_deployment.md       # Windows 部署指南
 │
-├── exp/                      # 实验输出
-│   ├── kws_finetune/         # V1 模型（无负样本）
-│   ├── kws_finetune_v2/      # V2 模型（有负样本）
-│   └── kws_finetune_v3/      # V3 模型（30 epochs，推荐使用）
+├── exp/                      # 旧实验输出
+│   └── kws_finetune_v3/      # V3 模型（30 epochs）
 │
-├── experiments/              # 消融实验
-│   └── multi_stage_ablation/ # 多阶段检测实验
+├── experiments/              # 实验目录
+│   ├── baseline_streaming/   # V4 流式模型实验 (推荐)
+│   │   └── exp_v4/          # 最佳模型: epoch-33
+│   └── multi_stage_ablation/ # V3 + MLP 多阶段检测实验
 │       ├── models/           # 训练好的验证器模型
 │       └── results/          # 实验结果
 │
+├── nihao-zhenzhen-kws/       # 可部署包 (HuggingFace)
+│   ├── model/                # FP32 模型 (13MB)
+│   ├── model_int8/           # INT8 模型 (5MB)
+│   ├── inference.py          # Python 推理接口
+│   └── examples/             # 示例代码
 ├── icefall/                  # Icefall 框架
 │   └── egs/wenetspeech/KWS/zipformer/
 │
@@ -82,7 +93,29 @@ keyword-spotting/
 
 ## 快速开始
 
-### 环境设置
+### 使用可部署包（推荐）
+
+```bash
+cd nihao-zhenzhen-kws/examples
+python realtime_detection.py
+```
+
+### Python API
+
+```python
+from inference import load_model
+
+# 加载 FP32 模型（默认）
+detector = load_model()
+
+# 或加载 INT8 模型（更小更快）
+detector = load_model(variant="int8")
+
+# 检测音频
+result = detector.detect("audio.wav")
+```
+
+### 训练环境设置
 
 ```bash
 # 创建 conda 环境
@@ -94,16 +127,6 @@ pip install -r requirements.txt
 
 # 设置 PythonPath
 export PYTHONPATH=/path/to/keyword-spotting/icefall:$PYTHONPATH
-```
-
-### 运行流式检测
-
-```bash
-# 使用 V3 模型 + MLP 验证器
-python main.py --model-dir exp/kws_finetune_v3
-
-# 使用纯 V3 模型（无 MLP 验证）
-python main.py --model-dir exp/kws_finetune_v3 --no-mlp
 ```
 
 ### 训练新模型
@@ -177,10 +200,10 @@ python scripts/eval/optimize_kws_params.py \
 
 | 类别 | 数量 | 描述 |
 |------|------|------|
-| 正样本 (你好真真) | 10 | 真人语音录制的 "你好真真" |
-| 相似词 (你好珍珍/娟娟) | 3 | 发音相似的关键词（应被拒绝） |
-| 负样本 | 36 | 其他命令和短语 |
-| **总计** | **49** | 真实场景测试样本 |
+| 正样本 (你好真真) | 63 | 真人语音录制的 "你好真真" |
+| 相似词 (你好珍珍/娟娟) | 28 | 发音相似的关键词（应被拒绝） |
+| 负样本 | 315 | 其他命令和短语 |
+| **总计** | **406** | 真实场景测试样本 |
 
 ### 训练数据统计
 
@@ -198,15 +221,29 @@ python scripts/eval/optimize_kws_params.py \
 
 ## 模型导出与部署
 
-```bash
-# 导出为 ONNX（带 INT8 量化）
-bash scripts/export/export_onnx_v3.sh
+### 可部署包 (V4 Streaming)
 
-# 导出到 HuggingFace
-python tools/kws_deploy_skill.py \
-  --username your_username \
-  --repo-name streaming-kws \
-  --action full
+已准备好完整部署包：`nihao-zhenzhen-kws/`
+
+**HuggingFace**: https://huggingface.co/Heehobino/nihao-zhenzhen-kws
+
+上传到 HuggingFace:
+```bash
+cd nihao-zhenzhen-kws
+huggingface-cli upload Heehobino/nihao-zhenzhen-kws . --repo-type model
+```
+
+### 训练模型导出
+
+```bash
+# 导出 V4 模型为 ONNX
+cd icefall/egs/wenetspeech/KWS
+python ./zipformer/export-onnx-streaming.py \
+    --exp-dir /path/to/experiments/baseline_streaming/exp_v4 \
+    --tokens /path/to/data/lang_partial_tone/tokens.txt \
+    --epoch 33 --avg 1 \
+    --chunk-size 16 --left-context-frames 128 \
+    --causal 1
 ```
 
 ## 许可证
@@ -217,5 +254,5 @@ Apache License 2.0
 
 - [Icefall Documentation](https://github.com/k2-fsa/icefall)
 - [Sherpa-ONNX Documentation](https://k2-fsa.github.io/sherpa/onnx/)
-- [HuggingFace Model](https://huggingface.co/Heehobino/streaming-kws)
+- [HuggingFace Model](https://huggingface.co/Heehobino/nihao-zhenzhen-kws)
 - [GitHub Repository](https://github.com/NatsuiroGinga/keyword-spotting)
